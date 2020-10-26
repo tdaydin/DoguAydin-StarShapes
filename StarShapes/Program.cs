@@ -12,11 +12,13 @@ namespace StarShapes
         {
 
             string keepGoing = "Yes";
-            
-            while (keepGoing == "Yes")
+
+            while (keepGoing == "Yes" || keepGoing == "yes")
             {
+                
                 Console.WriteLine("For Right Angle Triangle, enter 1. For a Regular Triangle, enter 2");
                 int input = Convert.ToInt32(Console.ReadLine());
+
 
                 Console.WriteLine("How many lines do you want?");
                 int number = Convert.ToInt32(Console.ReadLine());
