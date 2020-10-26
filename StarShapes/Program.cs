@@ -95,7 +95,5 @@ namespace StarShapes
                 Console.WriteLine();
             }
         }
-
-
     }
 }
